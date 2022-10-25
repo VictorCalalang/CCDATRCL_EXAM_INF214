@@ -27,11 +27,11 @@ public class Exam
         E = new Node('0');
         F = new Node('5');
         
-        D.left = B;
-        D.right = E;
-        B.left = A;
-        B.right = C;
-        E.left = F;
+        D.left  = B;
+        D.right = A;
+        B.left  = E;
+        B.right = F;
+        E.left  = C;
         
         System.out.print("Result: ");
         InOrderTraversal(D);
@@ -48,11 +48,11 @@ public class Exam
         E = new Node('0');
         F = new Node('5');
         
-        A.left = B;
+        A.left  = B;
         A.right = E;
-        B.left = C;
+        B.left  = C;
         B.right = D;
-        E.left = F;
+        E.left  = F;
         
         System.out.print("Result: ");
         PreOrderTraversal(A);
@@ -69,11 +69,11 @@ public class Exam
         E = new Node('0');
         F = new Node('5');
         
-        F.left = C;
+        F.left  = C;
         F.right = E;
-        C.left = A;
+        C.left  = A;
         C.right = B;
-        E.left = D;
+        E.left  = D;
         
         System.out.print("Result: ");
         PostOrderTraversal(F);
@@ -93,11 +93,11 @@ public class Exam
         F = new Node('7');
         G = new Node('9');
         
-        B.left = A;
+        B.left  = A;
         B.right = C;
-        A.left = D;
+        A.left  = D;
         A.right = E;
-        C.left = F;
+        C.left  = F;
         C.right = G;
         
         System.out.print("Result: ");
@@ -116,14 +116,14 @@ public class Exam
         H = new Node('6');
         I = new Node('1');
         
-        C.left = B;
-        C.right = D;
-        B.left = A;
+        C.left  = B;
+        C.right = A;
+        B.left  = D;
         B.right = G;
-        A.left = E;
+        A.left  = E;
         A.right = F;
-        D.left = H;
-        D.right = I;
+        D.left  = I;
+        D.right = H;
         
         System.out.print("Result: ");
         InOrderTraversal(C);
